@@ -7,16 +7,16 @@ export default function Header() {
       <div className="text-xl">{siteName}</div>
       <nav>
         <ul className="grid grid-cols-4">
-          <li className="py-2 cursor-pointer transition ease-in-out duration-300 hover:scale-105 hover:bg-sky-900 ">
+          <li className="py-2 cursor-pointer transition ease-in-out duration-300 hover:scale-105 hover:bg-sky-900 rounded">
             Track Health
           </li>
-          <li className="py-2 cursor-pointer transition ease-in-out duration-300 hover:scale-105 hover:bg-sky-900 ">
+          <li className="py-2 cursor-pointer transition ease-in-out duration-300 hover:scale-105 hover:bg-sky-900 rounded">
             Dash Board
           </li>
-          <li className="py-2 cursor-pointer transition ease-in-out duration-300 hover:scale-105 hover:bg-sky-900 ">
+          <li className="py-2 cursor-pointer transition ease-in-out duration-300 hover:scale-105 hover:bg-sky-900 rounded">
             Login
           </li>
-          <li className="py-2 cursor-pointer transition ease-in-out duration-300 hover:scale-105 hover:bg-sky-900 ">
+          <li className="py-2 cursor-pointer transition ease-in-out duration-300 hover:scale-105 hover:bg-sky-900 rounded">
             Registration
           </li>
         </ul>

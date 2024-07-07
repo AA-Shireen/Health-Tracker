@@ -87,7 +87,7 @@ export default function BMI() {
           <h2 className="text-4xl py-8">Lets get started!</h2>
           <h3 className="text-xl">By calculating your BMI</h3>
         </div>
-        <div className="bg-sky-950 bg-opacity-50">
+        <div className="">
           <form className="flex flex-col items-center py-2">
             <label htmlFor="height">Enter your Height</label>
             <input
@@ -136,26 +136,3 @@ export default function BMI() {
     </>
   );
 }
-
-/* <div ref={resultRef}>
-  {bmiResult && (
-    <div className="mt-4 text-white italic">
-      <p>Your BMI is: {bmiResult}</p>
-      {bmiPlan && (
-        <div className="mt-4">
-          {bmiPlan.message ? (
-            <p>{bmiPlan.message}</p>
-          ) : (
-            <div>
-              <p>Calories: {bmiPlan.calories}</p>
-              <p>Nutrients: {bmiPlan.nutrients}</p>
-              <p>Exercise: {bmiPlan.exercise}</p>
-              <p>Water: {bmiPlan.water}</p>
-              <p>Sleep: {bmiPlan.sleep}</p>
-            </div>
-          )}
-        </div>
-      )}
-    </div>
-  )}
-</div> */

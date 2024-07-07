@@ -7,13 +7,13 @@ const BmiResult = ({ bmiResult, bmiPlan }) => {
             style={{
                 backgroundImage: `url(${bmiResultCover})`
             }}>
-            <p className="text-4xl text-center">Your BMI is: {bmiResult}</p>
+            <p className="text-4xl text-center">Your BMI is: <span className="underline">{bmiResult}</span></p>
             {bmiPlan && (
                 <div className="mt-4">
                     {bmiPlan.message ? (
                         <p>{bmiPlan.message}</p>
                     ) : (
-                        <div className="text-xl bg-sky-950 bg-opacity-70 px-16 py-8 rounded-md leading-10">
+                        <div className="text-xl bg-sky-950 bg-opacity-70 px-16 py-8 rounded-xl leading-10">
                             <h3 className="my-8 text-center text-3xl font-semibold">{bmiPlan.status}</h3>
                             <p><span className="font-bold">Calories: </span>{bmiPlan.calories}</p>
                             <p><span className="font-bold">Nutrients:</span> {bmiPlan.nutrients}</p>
