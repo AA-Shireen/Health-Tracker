@@ -1,5 +1,8 @@
 import React from "react";
 import BMI from "./BMI";
+import TypedExample from "./Typed";
+
+import Testimonials from "./Testimonials";
 
 export default function Home() {
   return (
@@ -14,12 +17,13 @@ export default function Home() {
         <div className="space-y-10 bg-sky-950 bg-opacity-50 py-8">
           <h1 className="text-5xl ">Empower Your Health Journey</h1>
           <h2 className="text-xl">
-            "Track your fitness, nutrition, and sleep with ease. Stay on top of
-            your health goals and achieve a balanced lifestyle."
+
+            <TypedExample />
           </h2>
         </div>
       </div>
       <BMI />
+      <Testimonials />
     </>
   );
 }

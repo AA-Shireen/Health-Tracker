@@ -11,7 +11,12 @@ const BmiResult = ({ bmiResult, bmiPlan }) => {
             {bmiPlan && (
                 <div className="mt-4">
                     {bmiPlan.message ? (
-                        <p>{bmiPlan.message}</p>
+                        <>
+                            <div className="text-xl bg-sky-950 bg-opacity-70 px-16 py-8 rounded-xl leading-10">
+                                <h3 className="my-8 text-center text-3xl font-semibold">{bmiPlan.status}</h3>
+                                <p className="font-bold">{bmiPlan.message}</p>
+                            </div>
+                        </>
                     ) : (
                         <div className="text-xl bg-sky-950 bg-opacity-70 px-16 py-8 rounded-xl leading-10">
                             <h3 className="my-8 text-center text-3xl font-semibold">{bmiPlan.status}</h3>
