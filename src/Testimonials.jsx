@@ -11,7 +11,7 @@ const Testimonials = () => {
             id: 1,
             name: "John Depth",
             message: "I started using Health Tracker a month ago, and it has completely changed my approach to fitness. The personalized plans helped me stay on track and motivated!",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFhuzPu7WPdkIF-AR9qU0jFzIAf4_FHDRf9DkID37kY4ux8NL6Zj1Rlui5X5xYBUTVkLI&usqp=CAU",
+            image: "https://wallpaperaccess.com/full/2918981.jpg",
         },
         {
             id: 2,
@@ -23,25 +23,25 @@ const Testimonials = () => {
             id: 3,
             name: "Jim Currey",
             message: "As a busy professional, Health Tracker makes it easy for me to monitor my health on the go. The intuitive interface and insightful analytics are fantastic!",
-            image: "https://cdn.shopify.com/s/files/1/0273/8080/9781/products/grinch.jpg?v=1641178208",
+            image: "http://wallpapercave.com/wp/wp1914874.jpg",
         },
         {
             id: 4,
             name: "Eddie Morphine",
             message: "I've struggled with maintaining a healthy lifestyle, but Health Tracker's daily tips and reminders have kept me focused and motivated. Highly recommend!",
-            image: "https://i.imgflip.com/1jp6mt.jpg",
+            image: "https://miro.medium.com/max/1080/1*tTxapRHz5_7XIscNXWxwLQ.jpeg",
         },
         {
             id: 5,
             name: "Kevin Hearth",
             message: "I never thought tracking my health could be this easy! Thanks to this amazing tool, I've lost 10 pounds in just two months.",
-            image: "https://ih1.redbubble.net/image.4492617720.4172/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+            image: "https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/a/9f/a9f382fc-930c-11e7-b27e-fbef95d8a0c6/59b00147d8442.image.jpg",
         },
         {
             id: 6,
             name: "Dave Chaplin",
             message: "This health tracker has transformed my life. It keeps me motivated with personalized goals and insightful data. Highly recommended!",
-            image: "https://i.imgflip.com/2odtfu.jpg?a463296",
+            image: "https://img.nbc.com/sites/nbcunbc/files/images/2020/11/04/201104_4260738_Dave_Chappelle_Returns_to_SNL_.jpg",
         },
 
     ];
@@ -74,7 +74,7 @@ const Testimonials = () => {
                                 style={{ width: 150, height: 150, objectFit: "cover" }}
                             />
                             <p className="text-white my-4 text-lg px-8">{testimonial.message}</p>
-                            <p className="text-white my-4 text-xl font-semibold">{testimonial.name}</p>
+                            <p className="my-4 text-xl font-semibold text-cyan-400">{testimonial.name}</p>
                         </div>
                     ))}
                 </Slider>

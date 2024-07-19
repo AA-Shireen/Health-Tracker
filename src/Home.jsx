@@ -1,8 +1,9 @@
 import React from "react";
 import BMI from "./BMI";
 import TypedExample from "./Typed";
-
 import Testimonials from "./Testimonials";
+import Chart from "./Charts.jsx";
+import BarChart from "./Bar.jsx";
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
       </div>
       <BMI />
       <Testimonials />
+
+      <Chart />
+      <BarChart />
     </>
   );
 }
