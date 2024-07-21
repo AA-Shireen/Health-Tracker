@@ -66,7 +66,7 @@ const HealthFacts = () => {
         getRandomFact(); // Set an initial fact
         const interval = setInterval(() => {
             getRandomFact();
-        }, 100000); // Change fact every 5 minutes (300000 milliseconds)
+        }, 30000); // Change fact every 30 seconds (30000 milliseconds)
 
         return () => clearInterval(interval); // Clear interval on component unmount
     }, []);

@@ -1,5 +1,5 @@
 import React from "react";
-import bmiResultCover from "./Assets/bmiResultCover.jpg";
+import bmiResultCover from "../../Assets/bmiResultCover.jpg";
 
 const BmiResult = ({ bmiResult, bmiPlan }) => {
     return (

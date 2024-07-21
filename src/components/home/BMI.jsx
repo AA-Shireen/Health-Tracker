@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useRef } from "react";
 import "./BMIScroll.css";
-import bmiCover from "./Assets/bmiCover.jpg";
+import bmiCover from "../../Assets/bmiCover.jpg";
 import BmiResult from "./BmiResult";
 
 export default function BMI() {
