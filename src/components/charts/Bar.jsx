@@ -34,7 +34,6 @@ export default function BarChart() {
         <>
             <div className="h-screen col-span-12 flex items-center justify-center px-32 py-16 bg-gradient-to-b from-cyan-900 to-cyan-500">
                 <Bar options={options} data={data} />
-
             </div>
         </>
     )

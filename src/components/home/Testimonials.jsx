@@ -63,7 +63,7 @@ const Testimonials = () => {
             }
         }>
             <div className="container bg-black bg-opacity-50 rounded-xl w-3/5 mx-auto">
-                <h3 className="text-4xl font-bold mb-2 my-4">Success Stories</h3>
+                <h3 className="text-4xl font-bold mb-2 my-4 text-cyan-300">Success Stories</h3>
                 <Slider {...settings}>
                     {testimonials.map((testimonial) => (
                         <div key={testimonial.id} className="testimonial">
@@ -73,8 +73,8 @@ const Testimonials = () => {
                                 className="rounded-full mx-auto mb-4 my-4"
                                 style={{ width: 150, height: 150, objectFit: "cover" }}
                             />
-                            <p className="text-white my-4 text-lg px-8">{testimonial.message}</p>
-                            <p className="my-4 text-xl font-semibold text-cyan-400">{testimonial.name}</p>
+                            <p className="text-white my-4 text-lg px-8 ">{testimonial.message}</p>
+                            <p className="my-4 text-xl font-semibold text-red-400">{testimonial.name}</p>
                         </div>
                     ))}
                 </Slider>

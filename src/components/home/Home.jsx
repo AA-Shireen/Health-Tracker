@@ -3,7 +3,6 @@ import BMI from "./BMI";
 import TypedExample from "./Typed.jsx";
 import Testimonials from "./Testimonials.jsx";
 import Chart from "../charts/Charts.jsx";
-import BarChart from "../charts/Bar.jsx";
 
 export default function Home() {
   return (
@@ -16,18 +15,16 @@ export default function Home() {
         }}
       >
         <div className="space-y-10 bg-sky-950 bg-opacity-50 py-8">
-          <h1 className="text-5xl ">Empower Your Health Journey</h1>
-          <h2 className="text-xl">
-
+          <h1 className="text-5xl text-cyan-300 ">Empower Your Health Journey</h1>
+          <h2 className="text-xl text-red-400">
             <TypedExample />
           </h2>
         </div>
       </div>
+      <Chart />
       <BMI />
       <Testimonials />
 
-      <Chart />
-      <BarChart />
     </>
   );
 }

@@ -84,8 +84,8 @@ export default function BMI() {
         }}
       >
         <div className="">
-          <h2 className="text-4xl py-8">Lets get started!</h2>
-          <h3 className="text-xl">By calculating your BMI</h3>
+          <h2 className="text-4xl py-8 text-cyan-300">Lets get started!</h2>
+          <h3 className="text-xl">By calculating your <span className="text-red-500">BMI</span></h3>
         </div>
         <div className="">
           <form className="flex flex-col items-center py-2">
@@ -120,7 +120,7 @@ export default function BMI() {
               <option value="imperial">Imperial</option>
             </select>
             <button
-              className="py-2 px-8 my-4 rounded bg-sky-900 cursor-pointer transition ease-in-out duration-300 hover:scale-105 hover:bg-sky-800"
+              className="py-2 px-8 my-4 rounded bg-sky-900 cursor-pointer transition ease-in-out duration-300 hover:scale-105 hover:bg-sky-800 hover:text-cyan-400"
               type="button"
               onClick={calculateBMI}
             >
